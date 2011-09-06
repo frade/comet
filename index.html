@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Comet technology example &mdash; long polling case</title>
+        <script src="//yandex.st/jquery/1.6.2/jquery.min.js"></script>
+        <script>
+            $(function() {
+                var login = '';
+                while(!login.length) {
+                    login = prompt('Enter your login:');
+                }
+                $('h2').html('Hello, ' + login + '!');
+            });
+        </script>
+    </head>
+    <body>
+        <h2>Welcome to Comet chat!</h2>
+    </body>
+</html>
