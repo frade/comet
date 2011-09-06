@@ -1,0 +1,10 @@
+ABOUT
+  Simple example of Comet technology: long polling case.
+
+USING
+  run:
+    $ node comet.js
+  view:
+    http://localhost:8080/ — page with test case
+    http://localhost:8080/subscribe — subscribe page (for debug)
+    http://localhost:8080/publish?msg=foobar — broadcast page (for debug)
